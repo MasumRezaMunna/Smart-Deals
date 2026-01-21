@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0"
+  },
+  "name": "smart-deals",
+  "version": "1.0.0",
+  "description": "**A Local Online Marketplace for Buying & Selling with Bids**",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasumRezaMunna/Smart-Deals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasumRezaMunna/Smart-Deals/issues"
+  },
+  "homepage": "https://github.com/MasumRezaMunna/Smart-Deals#readme"
+}
