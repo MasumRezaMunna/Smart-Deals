@@ -27,6 +27,14 @@ async function run() {
     const productsCollection = db.collection("products");
 
     app.get('/products', async(req, res) =>{
+
+      console.log(req.query)
+      const email = req.query.email;
+      const query = {}
+      if(email){
+        query.email = email;
+      }
+
       const cursor = productsCollection.find().sort({price_min: 1});
       const result = await cursor.toArray();
       res.send(result);
